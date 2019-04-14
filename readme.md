@@ -1,5 +1,5 @@
 # Installation Instructions
-1. Downloaded [setup.ps1](https://davidwashere.github.io/alienswarm/setup.ps1)
+1. Download [setup.ps1](https://davidwashere.github.io/alienswarm/setup.ps1)
 1. Launch PowerShell as administrator
 1. Execute `.\setup.ps1`
 
