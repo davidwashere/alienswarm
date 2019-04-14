@@ -1,6 +1,6 @@
 # Create a GCP VM
 - Create Firewall Rule
-  - **Name:** `aliendwarm`
+  - **Name:** `alienswarm`
   - **Targets:** `specified target tags`
   - **Target tags:** `alienswarm`
   - **Source IP ranges:** `0.0.0.0/0`
