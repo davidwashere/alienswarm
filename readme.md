@@ -14,9 +14,9 @@
   - **Boot Disk:** `Windows Server 2019 Datacenter`
   - **Network tags:** `alienswarm`
 - RDP Into VM
-  - Connect > RDP > Set Windows Password
+  - `Connect > RDP > Set Windows Password`
     - Save a copy of the password somewhere
-  - Connect > RDP > Download RDP File
+  - `Connect > RDP > Download RDP File`
     - Use password from above when prompted
 
 # Installation Instructions
