@@ -1,5 +1,5 @@
 Invoke-WebRequest -Uri "https://steamcdn-a.akamaihd.net/client/installer/steamcmd.zip" -OutFile "steamcmd.zip"
-Expand-Archive -Path steamcmd.zip -DestinationPath C:\steamcmd
+Expand-Archive -Path steamcmd.zip -Force -DestinationPath C:\steamcmd
 
 C:\steamcmd\steamcmd +login anonymous +force_install_dir C:\srcds\alienswarmrd1 +app_update 582400 +quit
 
