@@ -125,7 +125,7 @@ $batstart | Set-Content C:\srcds\alienswarmrd1\start.bat
 $cfgautoexec | Set-Content C:\srcds\alienswarmrd1\reactivedrop\cfg\autoexec.cfg
 $cfgserver | Set-Content C:\srcds\alienswarmrd1\reactivedrop\cfg\server.cfg
 
-$cfgnewmapsettings | Out-File -FilePath "C:\srcds\alienswarmrd1\reactivedrop\cfg\newmapsettings.cfg" -Append
+$cfgnewmapsettings | Out-File -Encoding ASCII -FilePath "C:\srcds\alienswarmrd1\reactivedrop\cfg\newmapsettings.cfg" -Append
 
 
 
