@@ -1,3 +1,5 @@
+New-NetFirewallRule -DisplayName "AlienSwarmRD Inbound" -Direction Inbound -LocalPort 27070 -Protocol UDP -Action Allow
+
 Invoke-WebRequest -Uri "https://steamcdn-a.akamaihd.net/client/installer/steamcmd.zip" -OutFile "steamcmd.zip"
 Expand-Archive -Path steamcmd.zip -Force -DestinationPath C:\steamcmd
 
