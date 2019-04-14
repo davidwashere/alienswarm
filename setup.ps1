@@ -9,6 +9,8 @@ C:\steamcmd\steamcmd +login anonymous +force_install_dir C:\srcds\alienswarmrd1 
 
 # ==================================================================
 # ==================================================================
+$numplayers = Read-Host -Prompt 'Server Max Players'
+
 $batstart = @"
 cd %~dp0
 
@@ -19,7 +21,7 @@ title Alien Swarm Reactive Drop Dedicated Server
 :srcds 
 ..\steamcmd\steamcmd +login anonymous +force_install_dir C:\srcds\alienswarmrd1 +app_update 582400 +quit
 echo (%time%) Starting srcds...
-start /wait /high srcds.exe -console -usegh -nomessagebox -nocrashdialog -num_edicts 8192 -game reactivedrop -heapsize 1572864 -tickrate 100 -port 27070 +map lobby +con_logfile "console.log" -maxplayers 3 +exec server.cfg
+start /wait /high srcds.exe -console -usegh -nomessagebox -nocrashdialog -num_edicts 8192 -game reactivedrop -heapsize 1572864 -tickrate 100 -port 27070 +map lobby +con_logfile "console.log" -maxplayers $numplayers +exec server.cfg
 echo (%time%) WARNING: srcds closed or crashed, restarting in 20 sec.... 
 
 echo (%time%) STARTING SERVER in 10 seconds...
