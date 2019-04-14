@@ -1,5 +1,5 @@
 # Installation Instructions
-1. Clone this repo on your windows host (or just downloaded setup.ps1)
+1. Downloaded [setup.ps1](https://davidwashere.github.io/alienswarm/setup.ps1)
 1. Launch PowerShell as administrator
 1. Execute `.\setup.ps1`
 
