@@ -129,5 +129,4 @@ $cfgserver | Set-Content C:\srcds\alienswarmrd1\reactivedrop\cfg\server.cfg
 
 $cfgnewmapsettings | Out-File -Encoding ASCII -FilePath "C:\srcds\alienswarmrd1\reactivedrop\cfg\newmapsettings.cfg" -Append
 
-
-
+echo "Setup Complete, to start server execute C:\srcds\alienswarmrd1\start.bat"
