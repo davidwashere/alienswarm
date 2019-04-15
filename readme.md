@@ -26,3 +26,9 @@
 
 # Running Game
 1. Open cmd.exe and execute `C:\srcds\alienswarmrd1\start.bat`
+
+# Managing Bans
+Reference: https://support.steampowered.com/kb_article.php?ref=7612-KIMZ-9654
+- **Kick and Ban**
+  - `users`
+  - `banid 0 7 kick` <- will ban and kick userid 7 permanently
